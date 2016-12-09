@@ -1,4 +1,4 @@
-var pomelo = require('pomelo');
+var pomelo = require('pomelo-fresh');
 
 /**
  * Init app for client.
