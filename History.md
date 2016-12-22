@@ -1,3 +1,28 @@
+1.3.7 / 2016-12-17
+================
+  * add sioconnector messageString option
+  
+1.3.6 / 2016-12-16
+================
+  * pomelo file change to LF
+  
+1.3.5 / 2016-12-16
+================
+  * update to 1.3.5
+  
+1.3.4 / 2016-12-14
+================
+  * update pomelo-admin-fresh to 0.5.2
+  * update pomelo-rpc-fresh to 0.5.0
+  
+1.3.1 / 2016-12-8
+================
+  * pomelo-admin to pomelo-admin-fresh
+  
+1.3.0 / 2016-12-8
+================
+  * update dependencies
+
 1.2.1 / 2015-12-31
 ================
   * [NEW] upgrade ws to 0.8.0
