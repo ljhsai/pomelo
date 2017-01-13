@@ -35,7 +35,7 @@
     "cliff": ">=0.1.10",
     "mkdirp": ">=0.3.3",
     "pomelo-loader": "0.0.6",
-    "pomelo-rpc-fresh": "0.5.0",
+    "pomelo-rpc-fresh": "0.5.1",
     "pomelo-protocol": "0.1.6",
     "pomelo-admin-fresh": "0.5.2",
     "pomelo-logger": "0.1.7",
