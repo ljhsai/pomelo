@@ -1,3 +1,7 @@
+1.3.8 / 2017-1-10
+================
+  * update pomelo-rpc-fresh to 0.5.1
+
 1.3.7 / 2016-12-17
 ================
   * add sioconnector messageString option
