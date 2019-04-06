@@ -1,6 +1,6 @@
 {
-  "name": "pomelo-client",
-  "description": "pomelo-client",
+  "name": "pofresh-client",
+  "description": "pofresh-client",
   "local": [ "boot" ],
   "paths": [ "local"]
 }

@@ -1,16 +1,16 @@
-var pomelo = require('pomelo-fresh');
+var pofresh = require('pofresh-fresh');
 
 /**
  * Init app for client.
  */
-var app = pomelo.createApp();
+var app = pofresh.createApp();
 app.set('name', '$');
 
 // app configuration
 app.configure('production|development', 'connector', function(){
   app.set('connectorConfig',
     {
-      connector : pomelo.connectors.sioconnector,
+      connector : pofresh.connectors.sioconnector,
       // 'websocket', 'polling-xhr', 'polling-jsonp', 'polling'
       transports : ['websocket', 'polling'],
       heartbeats : true,

@@ -1,16 +1,16 @@
-var pomelo = require('pomelo-fresh');
+var pofresh = require('pofresh-fresh');
 
 /**
  * Init app for client.
  */
-var app = pomelo.createApp();
+var app = pofresh.createApp();
 app.set('name', '$');
 
 // app configuration
 app.configure('production|development', 'connector', function(){
   app.set('connectorConfig',
     {
-      connector : pomelo.connectors.hybridconnector,
+      connector : pofresh.connectors.hybridconnector,
       heartbeat : 3,
       useDict : true,
       useProtobuf : true

@@ -1,11 +1,11 @@
   var Emitter = require('emitter');
   window.EventEmitter = Emitter;
 
-  var protocol = require('pomelo-protocol');
+  var protocol = require('pofresh-protocol');
   window.Protocol = protocol;
   
-  var protobuf = require('pomelo-protobuf');
+  var protobuf = require('pofresh-protobuf');
   window.protobuf = protobuf;
   
-  var pomelo = require('pomelo-jsclient-websocket');
-  window.pomelo = pomelo;
+  var pofresh = require('pofresh-jsclient-websocket');
+  window.pofresh = pofresh;
